@@ -107,6 +107,7 @@ void base64_encode(const  char*in,  int inlen,char* out,  int &outlen)
 
     out[j] = 0;
     outlen = j;
+    //https://github.com/zhicheng/base64
 }
 void disconnect(int sockfd)
 {
